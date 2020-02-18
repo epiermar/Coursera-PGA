@@ -7,6 +7,6 @@ README.md: guessinggame.sh
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
 	echo "visit my **page** [here](https://epiermar.github.io/Coursera-PGA/)" >> README.md
 
-clean
+clean:
 	rm README.md
 	
